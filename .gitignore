@@ -1,0 +1,47 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore JetBrains IDE files
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore build and compiled files
+/dist/
+/build/
+/out/
+/bin/
+/obj/
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Ignore editor configuration files
+.editorconfig
+
+# Ignore dependency files
+/yarn.lock
+/package-lock.json
+
+# Ignore generated files
+/generated/
+
+# Ignore sensitive files
+/secrets.*
+/key.pem
+/cert.pem
+
+# Ignore any file or directory named "test"
+**/test
+
+# Ignore any file or directory named "doc" or "docs"
+**/doc**
